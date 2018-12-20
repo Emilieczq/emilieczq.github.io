@@ -5,3 +5,4 @@ package.json
 package-lock.json
 gulpfile.js
 css/global.css
+js/global.js
