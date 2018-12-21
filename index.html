@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   <head>
     <meta charset="utf-8">
@@ -7,7 +7,7 @@
     <meta name="description" content="This is Zhenqi Chai's Website.">
     <meta name="author" content="Zhenqi Chai">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <title>Zhenqi Chai</title>
+    <title class="lang" key="NAME"></title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -35,13 +35,24 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger lang" href="#about" key="ABOUT"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              <a class="nav-link js-scroll-trigger lang" href="#projects" key="PROJECT"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger lang" href="#contact" key="CONTACT"></a>
+            </li>
+            <li>
+              <div class="dropdown h-100" id="langBtn">
+                <button class="nav-link btn h-100 bg-transparent dropdown-toggle lang" style="box-shadow: none !important" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" key="LANG">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item translate" href="" id="en">English</a>
+                  <a class="dropdown-item translate" href="" id="fr">Français</a>
+                  <a class="dropdown-item translate" href="" id="zh">中文</a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -52,8 +63,8 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">Zhenqi Chai</h1>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5">It is never too late to learn.</h2>
+          <h1 class="mx-auto my-0 text-uppercase lang" key="NAME"></h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5 lang" key="PROVERB"></h2>
           <!-- <a href="#about" class="btn btn-primary js-scroll-trigger">My Resume</a> -->
         </div>
       </div>
@@ -64,16 +75,16 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">About me</h2>
-            <p class="text-white-50">Institut Supérieur d'Électronique de Paris</p>
-            <h2 class="text-white mb-4">About this Site</h2>
-            <p class="text-white-50 mb-2">For anyone that is wondering, this site is/was:</p>
+            <h2 class="text-white mb-4 lang" key="ABOUTME"></h2>
+            <p class="text-white-50 lang" key="ABOUT1"></p>
+            <h2 class="text-white mb-4 lang" key="ABOUTSITE"></h2>
+            <p class="text-white-50 mb-2 lang" key="ABOUT2"></p>
             <ul class="text-white-50 ml-5">
-              <li>Designed on a Mac</li>
-              <li>Coded with <a target="_blank" href="https://atom.io/">Atom</a></li>
-              <li>Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
-              <li>Started with <a target="_blank" href="https://startbootstrap.com/template-overviews/grayscale/">the Bootstrp template</a></li>
-              <li>Hosted on <a target="_blank" href="https://pages.github.com/">GitHub Pages</a></li>
+              <li><span class="lang" key="ABOUT3"></span></li>
+              <li><span class="lang" key="ABOUT4"></span> <a target="_blank" href="https://atom.io/">Atom</a></li>
+              <li><span class="lang" key="ABOUT5"></span> <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
+              <li><span class="lang" key="ABOUT6"></span> <a target="_blank" href="https://startbootstrap.com/template-overviews/grayscale/">the Bootstrp template</a></li>
+              <li><span class="lang" key="ABOUT7"></span> <a target="_blank" href="https://pages.github.com/">GitHub Pages</a></li>
             </ul>
             <p  class="text-white-50">For more information on how this site is structured, you can view <a href="https://github.com/Emilieczq/personal-website">the repository on GitHub</a>.</p>
           </div>
@@ -93,47 +104,12 @@
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
-              <h4>Projects</h4>
-              <p class="text-black-50 mb-0">As a software engineering student, I did and do some projects at school and outside school. Here is the overview of them. For more details, you can visit <a target="_blank" href="https://github.com/Emilieczq">my GitHub.</a></p>
+              <h4 class="lang" key="PROJECT"></h4>
+              <p class="text-black-50 mb-0"><span class="lang" key="PROJECT1"></span> <a target="_blank" href="https://github.com/Emilieczq" class="lang" key="PROJECT2"></a></p>
             </div>
           </div>
         </div>
-
-        <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Misty</h4>
-                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project Two Row -->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Mountains</h4>
-                  <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                  <hr class="d-none d-lg-block mb-0 mr-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- todo -->
 
       </div>
     </section>
@@ -217,15 +193,12 @@
       </div>
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
+    <!-- JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
     <script src="js/global.min.js"></script>
+    <script src="js/lang.min.js"></script>
 
   </body>
 
