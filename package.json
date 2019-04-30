@@ -1,8 +1,8 @@
 {
-    "title": "Zhenqi Chai",
-    "name": "Zhenqi Chai's Website",
+    "title": "Zhenqi Chai 柴真琦",
+    "name": "Zhenqi Chai 柴真琦",
     "version": "5.0.2",
-    "description": "This is Zhenqi Chai's personal website.",
+    "description": "Zhenqi Chai 柴真琦",
     "keywords": [
         "css",
         "sass",
@@ -13,7 +13,7 @@
     ],
     "homepage": "",
     "license": "MIT",
-    "author": "Zhenqi Chai",
+    "author": "Zhenqi Chai 柴真琦",
     "contributors": [
         "David Miller (http://davidmiller.io/)",
         "Zhenqi Chai"
