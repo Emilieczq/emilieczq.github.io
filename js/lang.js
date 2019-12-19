@@ -35,7 +35,6 @@ var arrLang = {
     "CONTACTME": "Contact with me.",
     "ADDRESS": "Address: Hangzhou, Zhejiang, China",
     "EMAIL": "Email: chaizhenqi@outlook.com",
-    "PHONE": "Phone: +86 18268827123",
     "PHOTOBY": "Masthead & Contact Photos by Guorong Chai."
   },
   "fr": {
@@ -74,7 +73,6 @@ var arrLang = {
     "CONTACTME": "Contact avec moi.",
     "ADDRESS": "Adresse: Hangzhou, Zhejiang, China",
     "EMAIL": "Email: chaizhenqi@outlook.com",
-    "PHONE": "Téléphone: +86 18268827123",
     "PHOTOBY": "Masthead & Contact Photos by Guorong Chai."
   },
   "zh": {
@@ -113,7 +111,6 @@ var arrLang = {
     "CONTACTME": "联系方式",
     "ADDRESS": "地址：浙江省杭州市",
     "EMAIL": "邮箱：chaizhenqi@outlook.com",
-    "PHONE": "电话：(+86)18268827123",
     "PHOTOBY": "Masthead & Contact Photos by 柴国荣."
   }
 };
